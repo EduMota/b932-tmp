@@ -1,0 +1,8 @@
+file_format: "1"
+id: b832
+name: b832 1.0 (nRF52832)
+type: board
+arch: arm
+outputs:
+  - ble
+exposes: [pro_micro]

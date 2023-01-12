@@ -1,0 +1,19 @@
+if BOARD_B832
+
+config BOARD
+	default "b832"
+
+config BT_CTLR
+	default BT
+
+config ZMK_BLE
+	default y
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+	default n
+
+endif # USB_DEVICE_STACK
+
+endif # BOARD_B832

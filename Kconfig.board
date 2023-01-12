@@ -1,0 +1,3 @@
+config BOARD_B832
+	bool "b832"
+	depends on SOC_NRF52832_QFAA
